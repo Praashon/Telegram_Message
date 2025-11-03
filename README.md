@@ -1,6 +1,6 @@
 # TelegraMsg
 
-A simple Python script to send messages to a Telegram user using the Telethon library.
+Easily send messages to your friends or colleagues on Telegram using this simple Python script powered by Telethon.
 
 ## Features
 
@@ -8,20 +8,33 @@ A simple Python script to send messages to a Telegram user using the Telethon li
 - Saves receiver information to a file
 - Checks if user info already exists before saving
 
-## Usage
+## Getting Started
 
-1. Install dependencies:
+1. **Install dependencies:**
+
    ```bash
    pip install -r requirements.txt
    ```
-2. Update the following variables in `TelegraMsg.py`:
-   - `api_id`: Your Telegram API ID
-   - `api_hash`: Your Telegram API hash
-   - `token`: Your bot token
-   - `phone_number`: Your phone number
-   - `user_name`: Telegram username of the receiver
-   - `message`: Message to send
-3. Run the script:
+
+2. **Get your Telegram API credentials:**
+
+   - Go to [my.telegram.org](https://my.telegram.org).
+   - Log in with your Telegram account.
+   - Click on 'API Development Tools'.
+   - Fill in the form to create a new application.
+   - Copy your `api_id` and `api_hash`.
+
+3. **Configure the script:**
+
+   - Open `TelegraMsg.py` and update these values:
+     - `api_id`: Your Telegram API ID
+     - `api_hash`: Your Telegram API hash
+     - `token`: Your bot token
+     - `phone_number`: Your phone number
+     - `user_name`: Telegram username of the receiver
+     - `message`: Message to send
+
+4. **Run the script:**
    ```bash
    python TelegraMsg.py
    ```
@@ -30,6 +43,6 @@ A simple Python script to send messages to a Telegram user using the Telethon li
 
 See `requirements.txt` for required packages.
 
-## Made By
+---
 
-Praashon Gautam
+Made with ❤️ by Praashon Gautam
