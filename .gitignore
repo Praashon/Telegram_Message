@@ -11,8 +11,9 @@ ENV/
 # Telegram session files
 *.session
 
-# InstaComment project (excluded)
+# Excluded projects
 InstaComment/
+EmailScraper/
 
 # IDE
 .vscode/
