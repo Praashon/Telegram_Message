@@ -2,12 +2,12 @@ from telethon.sync import TelegramClient
 from telethon.tl.types import InputPeerUser
 from telethon import TelegramClient
 
-api_id = "YOUR_TELEGRAM_API"
-api_hash = "YOUR_TELEGRAM_HASH"
+api_hash = "9501916da767f49768b47b7c0aa264db"
+api_id = "9314167"
 token = "bot token"
 message = "MESSAGE_TO_SEND"
 
-phone_number = "+977 (YOUR_PHONE_NUMBER)"
+phone_number = "+9779840838944"
 
 client = TelegramClient("session", api_id, api_hash)
 
@@ -18,7 +18,7 @@ if not client.is_user_authorized():
     client.sign_in(phone_number, input("Enter the valid code: "))
 
 try:
-    user_name = "COLLEAGUES_TG_USERNAME"
+    user_name = "Gaffer Ja"
     receiver = client.get_entity(user_name)
     user_id = receiver.id
     access_hash = receiver.access_hash
